@@ -1,5 +1,5 @@
-var var1;
-var var2;
+var rows = [];
+var timeInterval;
 
 function addRow (){
    //for (i =){
