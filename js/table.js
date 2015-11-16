@@ -9,7 +9,7 @@ function addRow (){
 };
 
 function removeRow () {
- 
+ //
  alert("Removing Last Row!");
 
 };
