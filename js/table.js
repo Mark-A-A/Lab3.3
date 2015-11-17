@@ -3,7 +3,7 @@ var timeInterval;
 
 function addRow (){
    console.log(rows);
-   rows.push()
+   rows.push();
    //for (i =){
 //
    //};
@@ -13,7 +13,6 @@ function addRow (){
 function removeRow () {
  //
  alert("Removing Last Row!");
-
 };
 
 
