@@ -1,7 +1,9 @@
-var rows = [];
+var rows = document.getElementsByClassName("tablerow"); 
 var timeInterval;
 
 function addRow (){
+   console.log(rows);
+   rows.push();
    //for (i =){
 //
    //};
@@ -11,7 +13,6 @@ function addRow (){
 function removeRow () {
  //
  alert("Removing Last Row!");
-
 };
 
 
@@ -25,6 +26,8 @@ function removeFirstRow() {
 
 };
 
-document.getElementsByClassName("add1")[0].addEventListener("click", addRow);
+document.getElementsByClassName("tablerow")[0].addEventListener("click", addRow);
+
+
 document.getElementsByClassName("remove1")[0].addEventListener("click", removeRow);
 document.getElementsByClassName("removeRandom")[0].addEventListener("click", removeFirstRow);
