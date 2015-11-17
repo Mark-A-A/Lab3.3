@@ -5,12 +5,13 @@ function addRow (){
    console.log(rows);
    rows.push()
    //for (i =){
-
+//
    //};
     alert("Adding A Last Row!");
 };
 
 function removeRow () {
+ //
  alert("Removing Last Row!");
 
 };
@@ -18,7 +19,7 @@ function removeRow () {
 
 function removeFirstRow() {
   //for (var i = 0; .length; i++) {
-
+//
   //};
   alert("Removing First Row Randomly!");
  
